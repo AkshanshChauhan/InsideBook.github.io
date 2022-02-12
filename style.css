@@ -1,0 +1,73 @@
+body {
+    position: fixed;
+    background: linear-gradient(45deg, gold, lightblue);
+    width: 300px;
+    height: 550px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+h1 {
+    background-color: darkorange;
+    width: 250px;
+    text-align: center;
+    margin: 20px 22.5;
+    color: whitesmoke;
+    border: 2px solid black;
+    filter:hue-rotate(0deg);
+    text-shadow: -10px -5px 5px black;
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+
+h1:hover {
+    filter:hue-rotate(360deg);
+    text-shadow: 10px 5px 5px black;
+    background-color: skyblue;
+    color: antiquewhite;
+}
+
+#loginBox {
+    position: absolute;
+    background-color: aquamarine;
+    width: 200px;
+    height: 400px;
+    margin: 10px 50px;
+    border-right: 2px solid rebeccapurple;
+    border-left: 2px solid rebeccapurple;
+    border-bottom: 10px solid rebeccapurple;
+    border-top: 10px solid rebeccapurple;
+    border-radius: 10px;
+}
+
+p {
+    position: relative;
+    width: 100px;
+    background-color: antiquewhite;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+input {
+    background-color: lightblue;
+    width: 150px;
+    margin: 7px 22.5px;
+    color: rebeccapurple;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#submit {
+    background-color: lightcoral;
+    color: aliceblue;
+    width: 100px;
+    margin: 10px 50px;
+}
+
+input:hover {
+    background-color: lightcyan;
+    color: darkblue;
+}
